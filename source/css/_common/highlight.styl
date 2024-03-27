@@ -5,10 +5,16 @@ code
 
 p>code:not([class]),li>code:not([class])
   font-size: $fs-code
-  background: var(--block)
-  padding: .2em
+  // background: var(--block)
+  background: hsl(hue($color-md-pink), 30%, 95%)
+  // border: 1px solid hsl(hue($color-md-pink), 80%, 80%)
+  // padding: .2em
+  padding: .2em .4em
+  margin-left: .3em
+  margin-right: .3em
   border-radius: 4px
-  color: var(--text-code)
+  // color: var(--text-code)
+  color: $color-md-pink
 
 .md-text .highlight, pre:not([class]):has(>code)
   margin: var(--gap-p) 0

@@ -308,11 +308,11 @@ tag_plugins:
       prefix: ph:seal-question-fill
   # {% emoji %}
   emoji:
+    tieba: https://gcore.jsdelivr.net/gh/cdn-x/emoji/tieba/{name}.png
     default: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/{name}.gif
     twemoji: https://gcore.jsdelivr.net/gh/twitter/twemoji/assets/svg/{name}.svg
     qq: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/{name}.gif
     aru: https://gcore.jsdelivr.net/gh/cdn-x/emoji/aru-l/{name}.gif
-    tieba: https://gcore.jsdelivr.net/gh/cdn-x/emoji/tieba/{name}.png
     blobcat: https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/{name}.png
   icon:
     # 留空时，图标和文字颜色相同
@@ -322,7 +322,7 @@ tag_plugins:
     default_color: theme # theme, accent, red, orange, yellow, green, cyan, blue, purple
   # {% image %}
   image:
-    fancybox: false # true, false
+    fancybox: true # true, false
   # {% copy xxx %}
   copy:
     toast: 复制成功
