@@ -407,6 +407,11 @@ data_services:
 # 3. 如果这个插件只需要引入外部文件，可以在【步骤 1】处增加 inject 字段，而无需进入【步骤 2】创建 ejs，参考 katex
 plugins:
 
+  # baidu
+  baidu:
+    enable: true
+    sid: 527d24f1a4c0bef6256d4231fa3c74ac
+
   # preload
   preload:
     enable: true
