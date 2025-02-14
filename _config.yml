@@ -410,7 +410,7 @@ plugins:
   # baidu
   baidu:
     enable: true
-    sid: 527d24f1a4c0bef6256d4231fa3c74ac
+    sid: 02fb88f7bf299c2e9c095c0f64f432d8
 
   # preload
   preload:
